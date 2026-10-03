@@ -19,7 +19,7 @@ For compilation the following are recommended:
 Most of it can also be compiled with fpc 2.6.4 and/or RC 4.00.011 (Oct 10 2000).  
 
 For a quick approach:
-- copy the command files in commandfiles one level up (so to its parent directory)
+- copy the command files in cmdfiles into the src directory
 - run mall.cmd
 - run goxall.cmd
 - run runall.cmd  
