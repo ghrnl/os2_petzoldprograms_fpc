@@ -28,14 +28,7 @@ const
   BACKSPACE = 8;
   {ESCAPE = 27;}
   
-type MENUITEM = record
-        iPosition : integer;
-        afStyle : word;
-        afAttribute : word;
-        id : word;
-        hwndSubMenu : cardinal;
-        hItem : cardinal;
-end;
+{$i ..\..\ch00\pmwin.inc}
 
 procedure EnableSysMenuItem (hwnd: cardinal; idItem: integer; fEnable: boolean);
 
