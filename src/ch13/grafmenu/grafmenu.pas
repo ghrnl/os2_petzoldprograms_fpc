@@ -17,14 +17,7 @@ uses os2def,pmwin,pmgpi;
 
 {$i grafmenu_hdr.pas}
 
-type MENUITEM = record
-        iPosition : word; {word or integer; orig has integer}
-        afStyle : word;
-        afAttribute : word;
-        id : word;
-        hwndSubMenu : cardinal;
-        hItem : cardinal;
-end;
+{$i ..\..\ch00\pmwin.inc}
 
 var
      szClientClass: PChar = 'GrafMenu' ;
