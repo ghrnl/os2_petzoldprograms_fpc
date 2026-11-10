@@ -17,14 +17,7 @@ uses os2def, pmwin,pmgpi;
 const IDM_ABOUT   = 10;
 const IDM_HELP    = 11;
 
-type MENUITEM = record
-        iPosition : integer;
-        afStyle : word;
-        afAttribute : word;
-        id : word;
-        hwndSubMenu : cardinal;
-        hItem : cardinal;
-end;
+{$i ..\..\ch00\pmwin.inc}
 
 var
     szCaption: Pchar = 'Poor Person''s Menu' ;
