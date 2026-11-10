@@ -8,7 +8,7 @@ The original sources can be compiled with e.g. Borland CPP 2, IBM Cset 2 or IBM 
 # Source (Pascal)
 
 Code is organized per chapter of the book; each program has its own subdirectory.
-The ch00 directory has code to "compensate for"/replace the C macros.  
+The ch00 directory has code to "compensate for"/replace the C macros. It also has pmwin.inc to make the programs compile and run in spite of an artefact in FPC unit pmwin.    
 
 # Compilation
 
@@ -31,7 +31,7 @@ On fpc side:
 - cannot produce dll's (shared libraries); use Virtual pascal 2.1 instead  
   
 On the programs:
-- freemem is too optimistic (but the C versions don't do better)
+- freemem reports total available memory (in line with the C versions)
 - printcal can (sometimes) mess up (shrink) the font size for the month in PS output; screen tends to be OK.  
 
 # Motivation
