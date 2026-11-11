@@ -1,3 +1,23 @@
+call ch12\loadbmp1\gox.cmd
+call ch12\loadbmp2\gox.cmd
+call ch12\poepoem\gox.cmd
+call ch12\resource\gox.cmd
+call ch13\convmenu\gox.cmd
+call ch13\grafmenu\gox.cmd
+call ch13\life\gox.cmd
+call ch13\popmenu\gox.cmd
+call ch13\taquin\gox.cmd
+call ch14\about1\gox.cmd
+call ch14\about2\gox.cmd
+call ch14\head\gox.cmd
 call ch14\hexcalc\gox.cmd
+call ch14\pattdlg\gox.cmd
+call ch15\blowup\gox.cmd
 call ch15\hexcalc2\gox.cmd
+call ch17\bigjob1\gox.cmd
+call ch17\bigjob2\gox.cmd
+call ch17\bigjob3\gox.cmd
+call ch17\bigjob4\gox.cmd
+call ch17\bigjob5\gox.cmd
+call ch18\printcal\gox.cmd
 
