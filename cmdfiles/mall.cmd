@@ -60,7 +60,6 @@ fpc ch12\poepoem\poepoem.pas
 fpc ch12\resource\resource.pas
 fpc ch13\convmenu\convmenu.pas
 fpc ch13\grafmenu\grafmenu.pas
-fpc ch13\life\life_hdr.pas
 fpc ch13\life\life.pas
 fpc ch13\poormenu\poormenu.pas
 fpc ch13\popmenu\popmenu.pas
