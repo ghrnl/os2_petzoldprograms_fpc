@@ -37,3 +37,6 @@ On the programs:
 # Motivation
 
 Why this project: learn C/C++. Next, see how far fpc gets under OS/2. Most of it was done around 2021; this excludes the use of AI.  
+
+# Credits
+To Charles Petzold for his structured approach in coding and describing PM programming.
